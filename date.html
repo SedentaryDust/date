@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <script type = "text/javascript">
+            flag = 1;
+            function f(){
+                alert("see ya");
+
+            }
+            function f1(){
+
+                if (flag == 1){
+                    bn.style.top = 400
+                    bn.style.left = 560
+                    flag = 2
+                }
+                else if (flag == 2){
+                    bn.style.top = 430
+                    bn.style.left = 700
+                    flag = 3
+                }
+                else if (flag == 3){
+                    bn.style.top = 500
+                    bn.style.left = 500
+                    flag = 5
+                }
+                else if (flag == 5){
+                    bn.style.top = 450
+                    bn.style.left = 244
+                    flag = 6
+                }
+                else if (flag == 6){
+                    bn.style.top = 400
+                    bn.style.left = 500
+                    flag = 7
+                }
+                else if (flag == 7){
+                    bn.style.top = 800
+                    bn.style.left = 444
+                    flag = 8
+                }
+                else if (flag == 8){
+                    bn.style.top = 600
+                    bn.style.left = 600
+                    flag = 9
+                }
+                else if (flag == 9){
+                    bn.style.top = 650
+                    bn.style.left = 550
+                    flag = 10
+                }
+                else if (flag == 10){
+                    bn.style.top = 550
+                    bn.style.left = 244
+                    flag = 1
+                }
+
+
+                }
+
+
+
+
+        </script>
+    </head>
+        <body>
+            <h1> DATE? <h1>
+            <img src = "http://www.quickmeme.com/img/cc/ccafa9eef390ebf3f1aba3ef303f6f09cde76937cea496c2f7a2ebde1ea47199.jpg">
+            <div id= "by" style="position: absolute;left:auto;">
+            <input type = "button" value=" YES " onclick="f()"></input>   
+            </div>
+            <div id = "bn" style="position: absolute;left: 200px;px;">
+            <input type="button" value= "NO" onmouseover="f1()"></input>   
+            </div>  
+
+        </body>
+
+
+</html>
